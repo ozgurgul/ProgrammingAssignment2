@@ -1,7 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## A pair of functions that cache the inverse of a matrix.
+## Computing the inverse of a square matrix can be done with the solve function in R. 
+## For example, if X is a square invertible matrix, then solve(X) returns its inverse.
 
 ## Write a short comment describing this function
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
